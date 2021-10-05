@@ -1,0 +1,27 @@
+{
+  "name": "e-voting-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2",
+    "nodejs": "^0.0.0",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep0804/vote-on"
+  },
+  "author": "sandeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandeep0804/vote-on/issues"
+  },
+  "homepage": "https://github.com/sandeep0804/vote-on#readme"
+}

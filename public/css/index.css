@@ -1,0 +1,135 @@
+.navbar-size {
+  width: 95%;
+  margin: 0 auto;
+}
+.user-image-size {
+  height: 56px;
+  margin: 4px 0;
+}
+.main-body {
+  min-height: 100vh;
+  background-color: gray;
+}
+.materialboxed-image {
+  margin: 0 auto;
+  height: 400px;
+}
+.click-me-button {
+  background-color: #24a0ed;
+  margin-top: 50px;
+}
+
+.click-me-button:hover {
+  background-color: #1565c0;
+}
+.card-text {
+  color: #212121;
+}
+
+nav {
+  background-color: rgb(7, 7, 27);
+  min-height: 15vh;
+}
+
+#formSubmit {
+  background-color: #24a0ed;
+}
+
+.lidin {
+  background-color: #24a0ed;
+}
+
+.lidin:hover {
+  background-color: #1565c0;
+}
+.elet {
+  /* background-color: #24a0ed;
+  margin-left: 160vh;
+  padding: 5px; */
+  text-decoration: none !important;
+  border-radius: 5px;
+  padding: 7px 20px;
+  float: right;
+  margin-left: 160vh;
+  margin-top: 10px;
+  color: bisque !important;
+  background: cornflowerblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+span {
+  text-decoration: none !important;
+  font-weight: 600;
+  color: white !important;
+}
+.elet:hover {
+  background-color: #1565c0;
+}
+
+h4 {
+  text-decoration: none !important;
+  color: bisque !important;
+  cursor: pointer;
+  /* text-decoration: none !important;
+  border-radius: 10px;
+  padding: 2px 2px;
+  float: right;
+  color: bisque !important;
+  background: cornflowerblue;
+  font-weight: 500;
+  cursor: pointer; */
+  margin-left: 70em;
+  border: none;
+  /* display: none; */
+}
+
+h4:hover {
+  text-decoration: none !important;
+  color: white !important;
+  cursor: pointer;
+  /* background-color: #1565c0; */
+}
+
+a {
+  text-decoration: none;
+  /* border: none; */
+}
+
+/* .ht {
+  margin-right: 55px;
+}
+
+.footer {
+  margin-top: 45vh;
+  margin-left: 77vh;
+} */
+.sp {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* .foot {
+  margin-top: 45vh;
+  margin-left: 55vh;
+} */
+.cand {
+  text-decoration: none !important;
+  border-radius: 5px;
+  padding: 7px 20px;
+  float: right;
+  margin-left: 120vh;
+  margin-top: 10px;
+  color: bisque !important;
+  background: cornflowerblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* .tab {
+  margin-left: 50vh;
+  margin-right: 50vh;
+} */
+
+.evt {
+  margin-left: 15px;
+}

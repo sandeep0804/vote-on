@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <!-- <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Voting | Deakin eVoting</title>
+    <link rel="shortcut icon" href="/img/icon.png" />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head> -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Voting Page | E-voting System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/voter.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <nav class="navbar">
+      <div class="container">
+        <a class="navbar__brand" href="/">Voting | Deakin eVoting</a>
+        <div class="nav">
+          <span id="voterInfo"></span>
+          <a class="btn btn--secondary ml-3" href="/">Log Out</a>
+        </div>
+      </div>
+    </nav> -->
+    <nav class="nav-extended">
+      <div class="sp">
+        <div class="nav-wrapper navbar-size">
+          <a href="#" class="brand-logo"><img class="user-image-size" src="/img/logo.png" /><span class="evt">E-voting
+              System</span></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><span id="voterInfo"></span></li>
+            <li><a href="/index.html">
+                <h6>Logout</h6>
+              </a></li>
+          </ul>
+      </div>
+    </nav>
+    <main>
+      <div id="elections" class="container">
+        <h3 class="p-3 text-muted text-center">Cast your Vote</h3>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p class="text-muted">&copy; 2021 E-voting System. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/voting.js"></script>
+  </body>
+</html>

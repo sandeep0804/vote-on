@@ -1,0 +1,56 @@
+body {
+  background: rgb(226, 224, 224);
+  margin: 0;
+  padding: 0;
+}
+.mid {
+  margin-top: 15vh;
+  margin-left: 75vh;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  position: fixed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 70px;
+}
+
+.wdmid {
+  margin-left: 10vh;
+}
+.tmid {
+  margin-left: 8vh;
+}
+
+.btn {
+  background-color: #24a0ed;
+}
+
+.btn:hover {
+  background-color: #1565c0;
+}
+
+h5 {
+  text-decoration: none !important;
+  font-weight: 600;
+  color: black !important;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+
+h6 {
+  text-decoration: none !important;
+  color: bisque !important;
+  cursor: pointer;
+}
+
+h6:hover {
+  text-decoration: none !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.foot {
+  margin-top: 75vh;
+  margin-left: 55vh;
+}

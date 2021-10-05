@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Elections | E-voting System</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/voter.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+<body>
+          <nav class="nav-extended">
+            <div class="sp">
+              <div class="nav-wrapper navbar-size">
+                <a href="#" class="brand-logo"><img class="user-image-size" src="/img/logo.png" /><span class="evt">E-voting
+                    System</span></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a href="/admin/index.html">
+                      <h6>Dashboard</h6>
+                    </a></li>
+                  <li><a href="/admin/elections.html">
+                      <h6>Elections</h6>
+                    </a></li>
+                  <li><a href="/admin/candidates.html">
+                      <h6>Candidates</h6>
+                    </a></li>
+                  <li><a href="/admin/voters.html">
+                      <h6>Voters</h6>
+                    </a></li>
+                  <li><a href="/admin/votes.html">
+                      <h6>Votes</h6>
+                    </a></li>
+                  <li><a href="/index.html">
+                      <h6>Logout</h6>
+                    </a></li>
+                  <li><a class="lidin" href="#">Admin</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                  <li class="tab"><a href="#"><span>Elections</span></a></li>
+                  <li><button class="cand mb-3 btn btn--primary" onclick="modal('modalNewElection').open()">New Election</button></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+<main>
+  <div class="container">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="tableElections">
+          <tr>
+            <td colspan="5" class="text-muted text-center">Loading data from database</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+<div id="modalNewElection" class="modal">
+  <div class="modal__dialog">
+    <form class="max-w-xs modal__content" onsubmit="handleNewElection(event)">
+      <div class="modal__header">
+        <h5 class="modal__title">New Election</h5>
+        <button type="button" class="modal__btn-close" onclick="modal('modalNewElection').close()"></button>
+      </div>
+      <div class="modal__body">
+        <div class="mb-3">
+          <label class="form__label">Name</label>
+          <input type="text" id="name" class="form__control" required />
+        </div>
+        <div class="mb-3">
+          <label class="form__label">Date</label>
+          <input type="date" id="date" class="form__control" required />
+        </div>
+        <div class="mb-3">
+          <label class="form__label">Status</label>
+          <select class="form__control" id="status" required>
+            <option value="">No status selected</option>
+            <option value="1">Running</option>
+            <option value="0">Closed</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <button type="submit" class="btn btn--primary">Add Election</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+<footer>
+  <div class="container">
+    <p class="text-muted">&copy; 2021 E-voting System. All rights reserved.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/elections.js"></script>
+</body>
+
+</html>

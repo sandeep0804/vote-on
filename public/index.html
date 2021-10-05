@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Dashboard | E-voting System</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet" />
+  <link href="/css/index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="nav-extended">
+    <div class="sp">
+      <div class="nav-wrapper navbar-size">
+        <a href="#" class="brand-logo"><img class="user-image-size" src="/img/logo.png" /><span class="evt">E-voting System</span></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li><a href="/voter/login.html">
+              <p>Voter Login</p>
+            </a></li>
+          <li><a href="/voter/register.html">
+              <p>Voter Registration</p>
+            </a></li> -->
+          <li ><a href="/admin/login.html">
+              <h4>Admin Login</h4>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<main>
+  <header class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="mb-3 col-sm">
+          <img src="/img/icon.png" class="mb-3" width="96" alt="" />
+          <h1 class="hero__title text-primary">
+            Participate in the students election and choose your best candidate
+          </h1>
+        </div>
+        <div class="col-sm">
+          <div class="card shadow">
+            <div class="card__body tabs">
+              <div class="mb-3 tabs__menu">
+                <button type="button" class="tabs__menu__item active" data-target="#tabLogin">Login</button>
+                <button type="button" class="tabs__menu__item" data-target="#tabRegister">Register</button>
+              </div>
+              <div id="tabLogin" class="tabs__pane active">
+                <form onsubmit="handleLogin(event)">
+                  <div class="mb-3">
+                    <label class="form__label">Student ID</label>
+                    <input type="text" id="loginStudentId" class="form__control" maxlength="9" placeholder="221000000"
+                      required />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form__label">Password</label>
+                    <input type="password" id="loginPassword" class="form__control" placeholder="••••••••••" required />
+                  </div>
+                  <button type="submit" class="btn btn--primary btn--block">Log In</button>
+                </form>
+              </div>
+              <div id="tabRegister" class="tabs__pane">
+                <form onsubmit="handleRegister(event)">
+                  <div class="mb-3">
+                    <label class="form__label">Student ID</label>
+                    <input type="text" id="studentId" class="form__control" maxlength="9" placeholder="221000000"
+                      required />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form__label">First Name</label>
+                    <input type="text" id="firstName" class="form__control" placeholder="Lucifer" required />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form__label">Last Name</label>
+                    <input type="text" id="lastName" class="form__control" placeholder="Morningstar" required />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form__label">Email Address</label>
+                    <input type="email" id="email" class="form__control" placeholder="name@deakin.edu.au" required />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form__label">Password</label>
+                    <input type="password" id="password" class="form__control" placeholder="••••••••••" required />
+                  </div>
+                  <button type="submit" class="btn btn--primary btn--block">Register</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</main>
+<footer>
+  <div class="container">
+    <p class="text-muted">&copy; 2021 E-voting System. All rights reserved.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/landing.js"></script>
+</body>
+
+</html>

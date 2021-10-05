@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Voters | E-voting System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/voter.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav-extended">
+      <div class="sp">
+        <div class="nav-wrapper navbar-size">
+          <a href="#" class="brand-logo"><img class="user-image-size" src="/img/logo.png" /><span class="evt">E-voting
+              System</span></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/admin/index.html">
+                <h6>Dashboard</h6>
+              </a></li>
+            <li><a href="/admin/elections.html">
+                <h6>Elections</h6>
+              </a></li>
+            <li><a href="/admin/candidates.html">
+                <h6>Candidates</h6>
+              </a></li>
+            <li><a href="/admin/voters.html">
+                <h6>Voters</h6>
+              </a></li>
+            <li><a href="/admin/votes.html">
+                <h6>Votes</h6>
+              </a></li>
+            <li><a href="/index.html">
+                <h6>Logout</h6>
+              </a></li>
+            <li><a class="lidin" href="#">Admin</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#"><span>Voters</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<main>
+  <div class="container">
+    <h2 class="mb-3">New</h2>
+    <div class="table-responsive mb-4">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Registration Date</th>
+            <th width="220px"></th>
+          </tr>
+        </thead>
+        <tbody id="tableNewVoters">
+          <tr>
+            <td colspan="6" class="text-muted text-center">Load new / pending voters details</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 class="mb-3">Approved</h2>
+    <div class="table-responsive mb-4">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Registration Date</th>
+            <th width="220px"></th>
+          </tr>
+        </thead>
+        <tbody id="tableApprovedVoters">
+          <tr>
+            <td colspan="6" class="text-muted text-center">Load approved voters details</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 class="mb-3">Rejected</h2>
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Registration Date</th>
+            <th width="220px"></th>
+          </tr>
+        </thead>
+        <tbody id="tableRejectedVoters">
+          <tr>
+            <td colspan="6" class="text-muted text-center">Load rejected voters details</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <p class="text-muted">&copy; 2021 E-voting System. All rights reserved.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/voters.js"></script>
+</body>
+</html>

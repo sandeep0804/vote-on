@@ -1,0 +1,150 @@
+.navbar-size {
+  width: 95%;
+  margin: 0 auto;
+}
+.user-image-size {
+  height: 56px;
+  margin: 4px 0;
+}
+.main-body {
+  min-height: 100vh;
+  background-color: gray;
+}
+.materialboxed-image {
+  margin: 0 auto;
+  height: 400px;
+}
+.click-me-button {
+  background-color: #24a0ed;
+  margin-top: 50px;
+}
+
+.click-me-button:hover {
+  background-color: #1565c0;
+}
+.card-text {
+  color: #212121;
+}
+
+nav {
+  background-color: rgb(7, 7, 27);
+  min-height: 15vh;
+}
+
+#formSubmit {
+  background-color: #24a0ed;
+}
+
+.lidin {
+  background-color: #24a0ed;
+}
+
+.lidin:hover {
+  background-color: #1565c0;
+}
+.elet {
+  /* background-color: #24a0ed;
+  margin-left: 160vh;
+  padding: 5px; */
+  text-decoration: none !important;
+  border-radius: 5px;
+  padding: 7px 20px;
+  float: right;
+  margin-left: 160vh;
+  margin-top: 10px;
+  color: bisque !important;
+  background: cornflowerblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.elet:hover {
+  background-color: #1565c0;
+}
+
+h6 {
+  text-decoration: none !important;
+  color: bisque !important;
+  cursor: pointer;
+}
+
+h6:hover {
+  text-decoration: none !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.ht {
+  margin-right: 55px;
+}
+
+.footer {
+  margin-top: 45vh;
+  margin-left: 77vh;
+}
+.sp {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.foot {
+  margin-top: 45vh;
+  margin-left: 55vh;
+}
+.cand {
+  text-decoration: none !important;
+  border-radius: 5px;
+  padding: 7px 20px;
+  float: right;
+  margin-left: 120vh;
+  margin-top: 10px;
+  color: bisque !important;
+  background: cornflowerblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cand:hover {
+  background-color: #1565c0;
+}
+
+.tab {
+  margin-left: 50vh;
+  margin-right: 50vh;
+}
+
+.evt {
+  margin-left: 15px;
+}
+
+.head {
+  background-color: hsl(214, 33%, 4%);
+  color: white;
+}
+
+.update {
+  background-color: black;
+}
+
+.update:hover {
+  background-color: gray;
+}
+
+.tabl {
+  margin-left: 40vh;
+  margin-right: 40vh;
+}
+
+.cnt {
+  margin-left: 40vh;
+  margin-right: 40vh;
+}
+
+.text-center {
+  margin-left: 65vh;
+  margin-bottom: 5em;
+}
+
+.btcl {
+  color: black;
+}

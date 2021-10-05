@@ -1,0 +1,48 @@
+body {
+  background: rgb(226, 224, 224);
+  margin: 0;
+  padding: 0;
+}
+.mid {
+  margin-top: 15vh;
+  margin-left: 75vh;
+  margin-right: 60vh;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  position: fixed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.wdmid {
+  margin-left: 10vh;
+}
+.tmid {
+  margin-left: 8vh;
+}
+
+.btn {
+  background-color: #24a0ed;
+}
+
+.btn:hover {
+  background-color: #1565c0;
+}
+
+.rg a {
+  margin-right: 10px;
+}
+
+.imc {
+  margin-left: 10vh;
+  margin-bottom: 3vh;
+}
+
+h6 {
+  text-decoration: none !important;
+  font-weight: 600;
+  color: black !important;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
